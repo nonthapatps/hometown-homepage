@@ -1,0 +1,140 @@
+.hero {
+    background-image: url(images/bangkok-1.jpg);
+    margin: 0px;
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    text-align: center;
+}
+#hero-head {
+    font-size: 48px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FEFAE0;
+}
+#hero-subhead {
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+}
+
+body {
+    margin: 0;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* activities-font */
+h2, .activities-name{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    color: #283618;
+    font-size: 24px
+}
+
+.activities-name{
+    color: #606C38;
+    font-size: 16px;
+}
+
+.activities-body{
+    font-size: 18px;
+    color: #575757;
+}
+
+/* activities-font */
+
+
+.activities-content {
+    /* padding-top: 31px; */
+    text-align: center;
+}
+
+.activities-img {
+    height: 115px;
+    width: 115px;
+    border-radius: 10px;
+}
+
+.activities {
+    background-color: #FEFAE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.activities-topic {
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: space-evenly;
+}
+
+.activities-1, .activities-2, .activities-3 {
+    width: 200px;
+    padding: 5px;
+}
+
+/* guide section */
+.guide {
+    background-image: url(images/bangkok-guide.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 350px;
+}
+
+.guide-img {
+    height: 189px;
+    width: 138px;
+    padding-right: 15px;
+}
+
+.guide-card {
+    background-color: #606C38;
+    border-bottom: 5px solid #DDA15E;
+    width: 420px;
+    padding: 25px;
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#your-guide {
+    color: #FEFAE0;
+}
+.guide-text {
+    color: white;
+    font-size: 16px;
+}
+.card-text {
+    text-align: center;
+}
+
+/* guide section */
